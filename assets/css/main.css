@@ -1310,6 +1310,10 @@ body {
       position: relative;
       width: 35%;
       margin: 0; }
+      .main.style2 > .content img {
+        width: 40%;
+        margin-left: 1em;
+        float: right; }
     .main.style2.left {
       -moz-justify-content: -moz-flex-start;
       -webkit-justify-content: -webkit-flex-start;
@@ -1383,6 +1387,10 @@ body {
         -webkit-transform: none;
         -ms-transform: none;
         transform: none; }
+        .main.style2 .content.style2 img {
+          width: 50%;
+          margin: 0 auto 1em;
+          float: none; }
     .main.style3 {
       text-align: center;
       padding: 3em 10px 3em 10px; } }
